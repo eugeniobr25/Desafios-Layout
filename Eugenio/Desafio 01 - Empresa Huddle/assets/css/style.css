@@ -3,16 +3,40 @@
     padding: 0;
 }
 
+#container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 header {
-""
+    width: 70vw;
+    height: 10vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn-exp-gratis {
+    padding: 10px 30px 10px 30px;
+    margin: 5px;
+    background-color: transparent;
+    border: 2px solid #a3c7f7;
+    border-radius: 20px ;
+    
 }
 
 main {
-
+   
 }
 
 footer {
-
+    
 }
 
 #img-layout {
