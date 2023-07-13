@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans',sans-serif;
 }
 
 #container {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,8 +29,8 @@ header {
     margin: 5px;
     background-color: transparent;
     border: 2px solid #a3c7f7;
-    border-radius: 20px ;
-    
+    border-radius: 20px;
+
 }
 
 main {
@@ -51,7 +50,7 @@ h1 {
     letter-spacing: 1px;
 }
 
-p {
+.p-mini-bio {
     font-size: 14pt;
     width: 40vw;
     text-align: center;
@@ -71,14 +70,73 @@ p {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
 }
 
-footer {
-    
+footer {}
+
+article {
+    width: 70vw;
+    height: 50vh;
+    margin: 100px;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
 }
 
-#img-layout {
-
+#comunities {
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-#estatistica {
+#messages {
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
 
+.h1-estatisticas {
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+}
+
+.p-estatisticas {
+    text-align: left;
+    color: #a7a7a7;
+}
+
+#crescer, #conversas, #usuarios {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#div-crescer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20vw;
+}
+
+#div-crescer-txt {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#img-together {
+    width: 20vw;
 }
