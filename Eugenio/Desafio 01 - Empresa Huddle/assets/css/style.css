@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #container {
@@ -81,7 +81,13 @@ article {
     background-image: url();
 }
 
-footer {}
+footer {
+    background: #a7a7a7;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 100px;
+}
 
 #comunities {
     width: 25%;
@@ -104,7 +110,7 @@ footer {}
 }
 
 .h1-estatisticas {
-    
+
     text-align: left;
     color: #000000;
     font-weight: bold;
@@ -117,37 +123,49 @@ footer {}
     font-size: 20pt;
 }
 
-#crescer, #conversas, #usuarios {
+#crescer,
+#conversas,
+#usuarios {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#div-crescer, #div-conversas, #div-usuarios {
+#div-crescer,
+#div-conversas,
+#div-usuarios {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15vw;
-    
+
 }
 
-#div-crescer-txt, #div-conversas-txt, #div-usuarios-txt {
+#div-crescer-txt,
+#div-conversas-txt,
+#div-usuarios-txt {
     width: 50vw;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.h1-crescer-txt, .h1-conversas-txt, .h1-usuarios-txt {
+.h1-crescer-txt,
+.h1-conversas-txt,
+.h1-usuarios-txt {
     font-size: 40pt;
 }
 
-.p-crescer-txt, .p-conversas-txt, .p-usuarios-txt {
+.p-crescer-txt,
+.p-conversas-txt,
+.p-usuarios-txt {
     font-size: 20pt;
 }
 
-#img-together, #img-conversation, #img-users {
+#img-together,
+#img-conversation,
+#img-users {
     width: 25vw;
 }
 
@@ -186,6 +204,73 @@ footer {}
     border-radius: 40px;
     font-size: 18pt;
     font-weight: 600;
-    color: white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
+}
+
+#boletim {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contatos {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#logo-footer {
+    width: 300px;
+}
+
+#formas-de-contato {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#tel,
+#email {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-se-inscrever {
+    width: 20%;
+    height: 5vh;
+    margin: 5px;
+    background-color: #1778fb;
+    border: none;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.color-white {
+    color: white;
+}
+
+.f-size {
+    font-size: 18pt;
+}
+
+.f-size-11 {
+    font-size: 11pt;
+}
+
+#redes-sociais {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.social-m-size {
+    width: 60px;
+    padding: 0;
 }
